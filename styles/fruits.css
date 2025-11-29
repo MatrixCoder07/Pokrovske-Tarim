@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
-
 }
 
 html,
@@ -125,7 +124,6 @@ header {
 .hero-section {
   overflow: hidden;
   display: flex;
-  min-height: none;
 }
 
 .hero-container {
@@ -133,7 +131,7 @@ header {
     url(../imgs/bg-main.png);
   background-size: cover;
   background-position: 80% center;
-  height: 431px;
+  min-height: 431px;
   display: flex;
   flex-direction: column;
   justify-content: end;
@@ -794,7 +792,6 @@ header {
     height: 14px;
   }
 
-
   .footer-container {
     flex-direction: row;
     padding: 16px 102px;
@@ -1219,15 +1216,11 @@ header {
   }
 }
 
-#preloader {
-    position: fixed;
-    inset: 0;
-    background: #084902;
-    z-index: 9999;
-    transition: opacity 0.5s ease;
+.fade-in {
+  opacity: 0;
+  transition: opacity 1s ease;
 }
 
-#preloader.hide {
-    opacity: 0;
-    pointer-events: none;
+.fade-in.visible {
+  opacity: 1;
 }

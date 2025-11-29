@@ -188,5 +188,10 @@ function resizeSections() {
 window.addEventListener('resize', resizeSections);
 window.addEventListener('load', resizeSections);
 
-
+window.addEventListener('load', () => {
+    const elements = document.querySelectorAll('.fade-in');
+    elements.forEach(el => {
+      el.classList.add('visible');
+    });
+  });
 

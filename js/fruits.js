@@ -180,12 +180,19 @@ const main = document.querySelector('.main-section');
 
 function resizeSections() {
     const windowHeight = window.innerHeight;
-    hero.style.minHeight = (windowHeight * 0.5) + 'px';
-    main.style.minHeight = (windowHeight * 0.5) + 'px';
+    hero.style.minHeight = `${windowHeight * 0.5}px`;
+    main.style.minHeight = `${windowHeight * 0.5}px`;
 }
 
 window.addEventListener('resize', resizeSections);
 window.addEventListener('load', resizeSections);
+
+window.addEventListener('load', () => {
+    const elements = document.querySelectorAll('.fade-in');
+    elements.forEach(el => {
+      el.classList.add('visible');
+    });
+  });
 
 
 
