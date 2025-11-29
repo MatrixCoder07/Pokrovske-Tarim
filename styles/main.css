@@ -6,10 +6,6 @@
   overflow-x: hidden;
 }
 
-html, body {
-  overflow: hidden;
-}
-
 a {
   text-decoration: none;
   color: inherit;

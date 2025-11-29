@@ -169,13 +169,6 @@ menuCloseBtn.addEventListener('click', () => {
   menu.classList.remove('active');
 });
 
-const preloader = document.getElementById("preloader");
-
-window.addEventListener("load", () => {
-    preloader.classList.add("hide");
-    document.documentElement.style.overflow = "visible"; 
-    document.body.style.overflow = "visible";
-});
 
 
 

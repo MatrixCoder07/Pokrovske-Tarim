@@ -187,12 +187,5 @@ function resizeSections() {
 window.addEventListener('resize', resizeSections);
 window.addEventListener('load', resizeSections);
 
-const preloader = document.getElementById("preloader");
-
-window.addEventListener("load", () => {
-    preloader.classList.add("hide");
-    document.documentElement.style.overflow = "visible"; 
-    document.body.style.overflow = "visible";
-});
 
 
