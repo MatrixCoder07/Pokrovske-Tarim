@@ -1170,9 +1170,6 @@ footer {
     position: fixed;
     inset: 0;
     background: #084902;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     z-index: 9999;
     transition: opacity 0.5s ease;
 }
@@ -1180,19 +1177,4 @@ footer {
 #preloader.hide {
     opacity: 0;
     pointer-events: none;
-}
-
-.loader-line {
-    width: 0;
-    height: 4px;
-    background: #ffffff;
-    border-radius: 4px;
-    transition: width 0.2s ease-out;    
-    box-shadow: 0 0 8px rgba(0,0,0,0.3);
-}
-
-@keyframes loading {
-    to { 
-        transform: scaleX(1); 
-    }
 }
