@@ -124,6 +124,7 @@ header {
 .hero-section {
   overflow: hidden;
   display: flex;
+
 }
 
 .hero-container {
@@ -131,12 +132,13 @@ header {
     url(../imgs/bg-main.png);
   background-size: cover;
   background-position: 80% center;
-  min-height: 431px;
+  height: 431px;
   display: flex;
   flex-direction: column;
   justify-content: end;
   padding: 24px 34px;
   width: 100%;
+  transition: min-height 0.3s ease-in;
 }
 
 .hero-h2 {
@@ -497,8 +499,13 @@ header {
     border-color: rgba(255, 255, 255, 0.6);
   }
 
+  .hero-section {
+    min-height: 50vh;
+  }
+
   .hero-container {
     padding: 0;
+    height: auto;
     background: url(../imgs/bg-main2.png);
     background-size: cover;
     background-position: center;
@@ -514,7 +521,6 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: auto;
   }
 
   .main-h2 {

@@ -178,6 +178,9 @@ header {
   align-items: center;
   gap: 15px;
   width: 100%;
+  overflow: visible;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
 }
 
 .main-big-img {
@@ -193,6 +196,9 @@ header {
   display: flex;
   gap: 26px;
   width: 100%;
+  overflow: visible;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
 }
 
 .main-img {
@@ -531,6 +537,10 @@ header {
     background-color: rgba(255, 255, 255, 0.25);
     backdrop-filter: blur(6px);
     border-color: rgba(255, 255, 255, 0.6);
+  }
+
+  .hero-section {
+    min-height: 50vh;
   }
 
   .hero-container {

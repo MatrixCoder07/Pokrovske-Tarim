@@ -203,28 +203,9 @@ smallImgs.forEach((smallImg) => {
         };
         
     });
-});
-
-document.querySelectorAll(".main-img").forEach((img) => {
-    const timestamp = new Date().getTime(); 
-    if (img.src.indexOf('?') === -1) {
-        img.src = img.src + '?' + timestamp;
-    } else {
-        img.src = img.src + '&t=' + timestamp;
-    }
-});
+})
 
 
-const main = document.querySelector('.main-section');
-
-function resizeSections() {
-    const windowHeight = window.innerHeight;
-    hero.style.minHeight = (windowHeight * 0.55) + 'px';
-    main.style.minHeight = (windowHeight * 0.45) + 'px';
-}
-
-window.addEventListener('resize', resizeSections);
-window.addEventListener('load', resizeSections);
 
 window.addEventListener('load', () => {
     const elements = document.querySelectorAll('.fade-in');
