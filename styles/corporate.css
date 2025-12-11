@@ -131,7 +131,7 @@ header {
 
 .hero-container {
   background: linear-gradient(rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.4)),
-    url(../imgs/bg-main.png);
+    url(../imgs/bg-main.webp);
   background-size: cover;
   background-position: 80% center;
   height: 431px;
@@ -480,7 +480,7 @@ footer {
   .hero-container {
     flex: 1;
     padding: 0;
-    background: url(../imgs/bg-main2.png);
+    background: url(../imgs/bg-main2.webp);
     background-size: cover;
     background-position: center;
     height: auto;

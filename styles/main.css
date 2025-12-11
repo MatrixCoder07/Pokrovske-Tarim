@@ -140,7 +140,7 @@ header {
 
 .hero-container {
   background: linear-gradient(rgba(0, 0, 0, 0.13), rgba(0, 0, 0, 0.4)),
-    url(../imgs/bg-main.png);
+    url(../imgs/bg-main.webp);
   background-size: cover;
   background-position: 80% center;
   height: 431px;
@@ -202,28 +202,28 @@ header {
 }
 
 .main-li:nth-child(1) {
-  background-image: url(../imgs/main-img1.png);
+  background-image: url(../imgs/main-img1.webp);
 }
 .main-li:nth-child(2) {
-  background-image: url(../imgs/main-img2.png);
+  background-image: url(../imgs/main-img2.webp);
 }
 .main-li:nth-child(3) {
-  background-image: url(../imgs/main-img3.png);
+  background-image: url(../imgs/main-img3.webp);
 }
 .main-li:nth-child(4) {
-  background-image: url(../imgs/main-img4.png);
+  background-image: url(../imgs/main-img4.webp);
 }
 .main-li:nth-child(5) {
-  background-image: url(../imgs/main-img5.png);
+  background-image: url(../imgs/main-img5.webp);
 }
 .main-li:nth-child(6) {
-  background-image: url(../imgs/main-img6.png);
+  background-image: url(../imgs/main-img6.webp);
 }
 .main-li:nth-child(7) {
-  background-image: url(../imgs/main-img7.png);
+  background-image: url(../imgs/main-img7.webp);
 }
 .main-li:nth-child(8) {
-  background-image: url(../imgs/main-img8.png);
+  background-image: url(../imgs/main-img8.webp);
 }
 
 .main-img-btn {

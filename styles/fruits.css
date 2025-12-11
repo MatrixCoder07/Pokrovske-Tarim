@@ -129,7 +129,7 @@ header {
 
 .hero-container {
   background: linear-gradient(rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.4)),
-    url(../imgs/bg-main.png);
+    url(../imgs/bg-main.webp);
   background-size: cover;
   background-position: 80% center;
   height: 431px;
@@ -197,13 +197,13 @@ header {
 }
 
 .main-li:nth-child(1) {
-  background-image: url(../imgs/main-img1.png);
+  background-image: url(../imgs/main-img1.webp);
 }
 .main-li:nth-child(2) {
-  background-image: url(../imgs/main-img4.png);
+  background-image: url(../imgs/main-img4.webp);
 }
 .main-li:nth-child(3) {
-  background-image: url(../imgs/main-img6.png);
+  background-image: url(../imgs/main-img6.webp);
 }
 
 .main-img-btn {
@@ -506,7 +506,7 @@ header {
   .hero-container {
     padding: 0;
     height: auto;
-    background: url(../imgs/bg-main2.png);
+    background: url(../imgs/bg-main2.webp);
     background-size: cover;
     background-position: center;
   }
